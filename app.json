@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Ticket Parking",
+    "slug": "ticket-parking",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {},
+    "ios": {
+      "bundleIdentifier": "com.ticketparking.app"
+    },
+    "android": {
+      "package": "com.ticketparking.app",
+      "permissions": [
+        "android.permission.CAMERA"
+      ]
+    },
+    "plugins": [
+      "expo-barcode-scanner"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a3ca859c-35f5-4c96-93db-3e69fe318522"
+      }
+    }
+  }
+}
